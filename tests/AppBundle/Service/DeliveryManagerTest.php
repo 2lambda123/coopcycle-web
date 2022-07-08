@@ -11,6 +11,9 @@ use AppBundle\Entity\Delivery\PricingRuleSet;
 use AppBundle\Entity\Restaurant;
 use AppBundle\Entity\Sylius\Order;
 use AppBundle\Entity\Sylius\OrderTimeline;
+use AppBundle\Entity\Task;
+use AppBundle\Entity\Zone;
+use AppBundle\ExpressionLanguage\ZoneExpressionLanguageProvider;
 use AppBundle\Exception\ShippingAddressMissingException;
 use AppBundle\Security\TokenStoreExtractor;
 use AppBundle\Service\DeliveryManager;
@@ -18,7 +21,9 @@ use AppBundle\Service\RoutingInterface;
 use AppBundle\Utils\OrderTimeHelper;
 use AppBundle\Utils\OrderTimelineCalculator;
 use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\ORM\EntityRepository;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
+use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
 use Prophecy\Argument;
 use Prophecy\PhpUnit\ProphecyTrait;
 
@@ -206,5 +211,91 @@ class DeliveryManagerTest extends KernelTestCase
         );
 
         $delivery = $deliveryManager->createFromOrder($order);
+    }
+
+    public function testGetPriceWithMapStrategyWithMultiplePickups()
+    {
+        $pickup1Address = new Address();
+        $pickup1Address->setStreetAddress('Pickup 1');
+
+        $pickup2Address = new Address();
+        $pickup2Address->setStreetAddress('Pickup 2');
+
+        $rule2 = new PricingRule();
+        $rule2->setExpression('in_zone(pickup.address, "Zone A")');
+        $rule2->setPrice(100);
+
+        $rule3 = new PricingRule();
+        $rule3->setExpression('in_zone(pickup.address, "Zone B")');
+        $rule3->setPrice(200);
+
+        $ruleSet = new PricingRuleSet();
+        $ruleSet->setStrategy('map');
+        $ruleSet->setRules(new ArrayCollection([
+            $rule2,
+            $rule3,
+        ]));
+
+        $zoneA = $this->prophesize(Zone::class);
+        $zoneA
+            ->containsAddress(Argument::type(Address::class))
+            ->will(function ($args) use ($pickup1Address) {
+
+                if ($args[0] === $pickup1Address) {
+
+                    return true;
+                }
+
+                return false;
+            });
+
+        $zoneB = $this->prophesize(Zone::class);
+        $zoneB
+            ->containsAddress(Argument::type(Address::class))
+            ->will(function ($args) use ($pickup2Address) {
+
+                if ($args[0] === $pickup2Address) {
+
+                    return true;
+                }
+
+                return false;
+            });
+
+        $zoneRepository = $this->prophesize(EntityRepository::class);
+        $zoneRepository
+            ->findOneBy(['name' => 'Zone A'])
+            ->willReturn($zoneA->reveal());
+        $zoneRepository
+            ->findOneBy(['name' => 'Zone B'])
+            ->willReturn($zoneB->reveal());
+
+        $expressionLanguage = new ExpressionLanguage();
+        $expressionLanguage->registerProvider(
+            new ZoneExpressionLanguageProvider($zoneRepository->reveal())
+        );
+
+        $deliveryManager = new DeliveryManager(
+            $expressionLanguage,
+            $this->routing->reveal(),
+            $this->orderTimeHelper->reveal(),
+            $this->orderTimelineCalculator->reveal(),
+            $this->storeExtractor->reveal()
+        );
+
+        $pickup1 = new Task();
+        $pickup1->setType(Task::TYPE_PICKUP);
+        $pickup1->setAddress($pickup1Address);
+
+        $pickup2 = new Task();
+        $pickup2->setType(Task::TYPE_PICKUP);
+        $pickup2->setAddress($pickup2Address);
+
+        $dropoff = new Task();
+        $dropoff->setType(Task::TYPE_DROPOFF);
+
+        $delivery = Delivery::createWithTasks(...[ $pickup1, $pickup2, $dropoff ]);
+
+        $this->assertEquals(300, $deliveryManager->getPrice($delivery, $ruleSet));
     }
 }
