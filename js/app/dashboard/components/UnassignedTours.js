@@ -4,21 +4,20 @@ import { connect } from 'react-redux'
 import { withTranslation } from 'react-i18next'
 import { Draggable, Droppable } from "react-beautiful-dnd"
 
-import Tour from './Tour'
+import UnassignedTour from './UnassignedTour'
 import { selectTours } from '../redux/selectors'
 
 
 class UnassignedTours extends React.Component {
 
   render() {
-
     return (
       <div className="dashboard__panel">
         <h4 className="d-flex justify-content-between">
           <span>{ this.props.t('DASHBOARD_UNASSIGNED_TOURS') }</span>
         </h4>
         <div className="dashboard__panel__scroll">
-          <Droppable droppableId="unassigned_tours">
+          <Droppable isDropDisabled={ this.props.isDropDisabled } droppableId="unassigned_tours">
             {(provided) => (
               <div className="list-group nomargin" ref={ provided.innerRef } { ...provided.droppableProps }>
                 { _.map(this.props.tours, (tour, index) => {
@@ -30,7 +29,7 @@ class UnassignedTours extends React.Component {
                           { ...provided.draggableProps }
                           { ...provided.dragHandleProps }
                         >
-                          <Tour
+                          <UnassignedTour
                             key={ tour['@id'] }
                             tour={ tour }
                             tasks={ tour.items }
@@ -54,6 +53,7 @@ function mapStateToProps (state) {
 
   return {
     tours: selectTours(state),
+    isDropDisabled: state.logistics.ui.unassignedToursDroppableDisabled
   }
 }
 

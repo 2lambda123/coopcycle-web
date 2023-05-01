@@ -21,6 +21,10 @@ use Symfony\Component\Serializer\Annotation\Groups;
  *   itemOperations={
  *     "get"={
  *       "method"="GET"
+ *     },
+ *     "put"={
+ *       "method"="PUT",
+ *       "input"=TourInput::class
  *     }
  *   },
  *   attributes={

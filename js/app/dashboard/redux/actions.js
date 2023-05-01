@@ -11,6 +11,10 @@ import {
   createTaskListSuccess,
   createTaskListFailure,
   makeSelectTaskListItemsByUsername,
+  enableUnassignedToursDroppable,
+  disableUnassignedToursDroppable,
+  enableUnassignedTourTasksDroppable,
+  disableUnassignedTourTasksDroppable,
 } from '../../coopcycle-frontend-js/logistics/redux'
 import { selectNextWorkingDay, selectSelectedTasks } from './selectors'
 
@@ -1146,7 +1150,8 @@ export function exportTasks(start, end) {
 }
 
 export function handleDragStart(result) {
-
+  console.log('DRAGSTART')
+  console.log(result.source)
   return function(dispatch, getState) {
 
     const selectedTasks = getState().selectedTasks
@@ -1158,12 +1163,18 @@ export function handleDragStart(result) {
     if (!isDraggableSelected) {
       dispatch(clearSelectedTasks())
     }
+
+    if (result.source.droppableId == 'unassigned_tours') {
+      dispatch(disableUnassignedTourTasksDroppable())
+    }
   }
 }
 
 export function handleDragEnd(result) {
 
   return function(dispatch, getState) {
+
+    dispatch(enableUnassignedTourTasksDroppable())
 
     // dropped nowhere
     if (!result.destination) {
@@ -1172,6 +1183,9 @@ export function handleDragEnd(result) {
 
     const source = result.source;
     const destination = result.destination;
+    console.log('DRAGEND')
+    console.log(source)
+    console.log(destination)
 
     // reordered inside the unassigned list or unassigned tours list, do nothing
     if (
