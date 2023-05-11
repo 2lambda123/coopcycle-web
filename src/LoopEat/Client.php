@@ -273,4 +273,12 @@ class Client
                 $this->urlGenerator->generate('loopeat_failure', [], UrlGeneratorInterface::ABSOLUTE_URL),
         ]);
     }
+
+    public function getRestaurantOAuthAuthorizeUrl()
+    {
+        // TODO
+        // Retrieve it from /api/v1/partners/initiatives + cache results
+
+        return 'https://resto.green.preprod.collectif-impec.org/oauth/authorize';
+    }
 }

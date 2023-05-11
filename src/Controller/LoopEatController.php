@@ -90,7 +90,7 @@ class LoopEatController extends AbstractController
     }
 
     /**
-     * @Route("/loopeat/oauth/callback", name="loopeat_oauth_callback")
+     * @Route("/impec/oauth/callback", name="loopeat_oauth_callback")
      */
     public function connectStandardAccountAction(
         Request $request,
