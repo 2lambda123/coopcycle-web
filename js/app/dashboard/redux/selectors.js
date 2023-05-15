@@ -298,7 +298,7 @@ export const selectLinkedTasksIds = createSelector(
   }
 )
 
-export const selectTours = createSelector(
+export const selectUnassignedTours = createSelector(
   selectUnassignedTasks,
   (unassignedTasks) => {
 

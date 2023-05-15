@@ -5,7 +5,7 @@ import { withTranslation } from 'react-i18next'
 import { Draggable, Droppable } from "react-beautiful-dnd"
 
 import UnassignedTour from './UnassignedTour'
-import { selectTours } from '../redux/selectors'
+import { selectUnassignedTours } from '../redux/selectors'
 
 
 class UnassignedTours extends React.Component {
@@ -52,7 +52,7 @@ class UnassignedTours extends React.Component {
 function mapStateToProps (state) {
 
   return {
-    tours: selectTours(state),
+    tours: selectUnassignedTours(state),
     isDropDisabled: state.logistics.ui.unassignedToursDroppableDisabled
   }
 }
