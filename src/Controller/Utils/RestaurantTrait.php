@@ -778,7 +778,8 @@ trait RestaurantTrait
     public function restaurantProductAction($restaurantId, $productId, Request $request,
         ObjectRepository $productRepository,
         EntityManagerInterface $entityManager,
-        EventDispatcherInterface $dispatcher)
+        EventDispatcherInterface $dispatcher,
+        LoopeatClient $loopeatClient)
     {
         $restaurant = $this->getDoctrine()
             ->getRepository(LocalBusiness::class)
@@ -816,6 +817,12 @@ trait RestaurantTrait
 
             return $this->redirectToRoute($routes['products'], ['id' => $restaurantId]);
         }
+
+        $formats = $loopeatClient->getFormats($restaurant);
+
+        echo '<pre>';
+        print_r($formats);
+        exit;
 
         return $this->render($request->attributes->get('template'), $this->withRoutes([
             'layout' => $request->attributes->get('layout'),

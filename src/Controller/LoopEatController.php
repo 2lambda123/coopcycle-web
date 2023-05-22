@@ -27,12 +27,14 @@ class LoopEatController extends AbstractController
         string $loopeatClientId,
         string $loopeatClientSecret,
         string $loopeatOAuthFlow,
+        LoopEatClient $loopeatClient,
         LoggerInterface $logger)
     {
         $this->loopeatBaseUrl = $loopeatBaseUrl;
         $this->loopeatClientId = $loopeatClientId;
         $this->loopeatClientSecret = $loopeatClientSecret;
         $this->loopeatOAuthFlow = $loopeatOAuthFlow;
+        $this->loopeatClient = $loopeatClient;
         $this->logger = $logger;
     }
 
@@ -45,7 +47,10 @@ class LoopEatController extends AbstractController
             'client_secret' => $this->loopeatClientSecret,
         );
 
-        $ch = curl_init(sprintf('%s/oauth/token', $this->loopeatBaseUrl));
+        // TODO Manage via env
+        $url = sprintf('%s/oauth/token', 'https://collectif-impec-api-preprod.herokuapp.com');
+
+        $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params));
