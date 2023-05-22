@@ -281,4 +281,47 @@ class Client
 
         return 'https://resto.green.preprod.collectif-impec.org/oauth/authorize';
     }
+
+    private function getPartnerToken()
+    {
+        return base64_encode(sprintf('%s:%s', $this->loopEatClientId, $this->loopEatClientSecret));
+    }
+
+    public function currentRestaurantOwner(LocalBusiness $restaurant)
+    {
+        $response = $this->client->request('GET', '/api/v1/partners/restaurant_owner/current', [
+            'headers' => [
+                'Authorization' => sprintf('Bearer %s', $restaurant->getLoopeatAccessToken())
+            ],
+            'oauth_credentials' => $restaurant,
+        ]);
+
+        $res = json_decode((string) $response->getBody(), true);
+
+        return $res['data'];
+    }
+
+    public function getFormats(LocalBusiness $restaurant)
+    {
+        try {
+
+            $restaurantOwner = $this->currentRestaurantOwner($restaurant);
+            $remoteRestaurant = current($restaurantOwner['restaurants']);
+
+            $response = $this->client->request('GET', sprintf('/api/v1/partners/restaurants/%s/formats', $remoteRestaurant['id']), [
+                'headers' => [
+                    'Authorization' => sprintf('Bearer %s', $this->getPartnerToken())
+                ],
+            ]);
+
+            $res = (string) $response->getBody();
+
+            return json_decode($res, true);
+
+        } catch (RequestException $e) {
+            $this->logger->error($e->getMessage());
+            var_dump($e->getMessage());
+            return false;
+        }
+    }
 }
