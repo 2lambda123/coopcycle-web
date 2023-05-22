@@ -1244,7 +1244,7 @@ export function handleDragEnd(result) {
 
       console.log(newTasks)
       
-      // dispatch(modifyTour(tourId, newTasks))
+      dispatch(modifyTour(tourId, tour.name, newTasks))
 
       return
     }
@@ -1548,23 +1548,23 @@ export function createTour(tasks, name) {
   }
 }
 
-export function modifyTour(tourId, tasks) {
+export function modifyTour(tourId, tourName, tasks) {
 
-  const data = tasks.map((task, index) => ({
-    task: task['@id'],
-    position: index,
-  }))
+  // const data = tasks.map((task, index) => ({
+  //   task: task['@id'],
+  //   position: index,
+  // }))
 
   return function(dispatch, getState) {
 
     let state = getState()
     let allTasks = selectAllTasks(state)
-    let date = selectSelectedDate(state)
+    // let date = selectSelectedDate(state)
 
-    const url = window.Routing.generate('admin_tour_modify', {
-      date: date.format('YYYY-MM-DD'),
-      tourId,
-    })
+    // const url = window.Routing.generate('admin_tour_modify', {
+    //   date: date.format('YYYY-MM-DD'),
+    //   tourId,
+    // })
 
     const newTasks = tasks.map((task, position) => {
       const rt = _.find(allTasks, t => t['@id'] === task['@id'])
@@ -1576,14 +1576,22 @@ export function modifyTour(tourId, tasks) {
     })
 
     dispatch(modifyTourRequest(tourId, newTasks))
+    
+    const { jwt } = getState()
 
-    axios
-      .put(url, data, {
-        withCredentials: true,
-        headers: {
-          'Content-Type': 'application/ld+json'
-        },
-      })
+    createClient(dispatch).request({
+      method: 'put',
+      url: `/api/tours/${tourId}`,
+      data: {
+        name: tourName,
+        tasks: _.map(tasks, t => t['@id'])
+      },
+      headers: {
+        'Authorization': `Bearer ${jwt}`,
+        'Accept': 'application/ld+json',
+        'Content-Type': 'application/ld+json'
+      }
+    })
       .then(res => dispatch(modifyTourRequestSuccess(res.data)))
       .catch(error => {
         // eslint-disable-next-line no-console
