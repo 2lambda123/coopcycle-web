@@ -1237,7 +1237,12 @@ export function handleDragEnd(result) {
       console.log(tour)
       
       const [ removed ] = tour.items.splice(result.source.index, 1);
+      
       const newTourItems = [ ...tour.items ]
+      
+      // add again to current tour, will be overriden by server response
+      tour.items.splice(result.destination.index, 0, removed)
+
       newTourItems.splice(result.destination.index, 0, removed)
 
       newTasks.push(...newTourItems);
