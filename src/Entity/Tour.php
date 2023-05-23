@@ -77,4 +77,21 @@ class Tour extends TaskCollection implements TaskCollectionInterface
 
         return parent::addTask($task, $position);
     }
+
+    public function removeTask(Task $task)
+    {
+        $task->setTour(null);
+        parent::removeTask($task);
+    }
+
+    public function getTaskPosition(Task $task)
+    {
+        foreach ($this->getItems() as $item) {
+            if ($item->getTask() === $task) {
+                return $item->getPosition();
+            }
+        }
+
+        return 0;
+    }
 }
