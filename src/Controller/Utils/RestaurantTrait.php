@@ -818,11 +818,11 @@ trait RestaurantTrait
             return $this->redirectToRoute($routes['products'], ['id' => $restaurantId]);
         }
 
-        $formats = $loopeatClient->getFormats($restaurant);
+        // $formats = $loopeatClient->getFormats($restaurant);
 
-        echo '<pre>';
-        print_r($formats);
-        exit;
+        // echo '<pre>';
+        // print_r($formats);
+        // exit;
 
         return $this->render($request->attributes->get('template'), $this->withRoutes([
             'layout' => $request->attributes->get('layout'),
