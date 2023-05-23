@@ -27,7 +27,7 @@ class TourInputDataTransformer implements DataTransformerInterface
         // error_log(serialize($context));
         // dd($context);
 
-        if ($context["operation_type"] == "item" && "item_operation_name" == "put") {
+        if ($context["operation_type"] == "item" && $context["item_operation_name"] == "put") {
             $tour = $context['object_to_populate'];
             $tour->setName($data->name);
             
