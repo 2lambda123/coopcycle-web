@@ -1,0 +1,2554 @@
+repo_name: 2lambda123/coopcycle-web
+report_id: 73603ebf0d70c752f124f28e36ea3e4f
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:55:40+00:00'
+requested_by: 2lambda123
+provider: github
+branch: 3552-improving-the-route-concept
+detected_tools_count: 192
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web
+  detection_source: Repo Metadata
+- name: Gherkin
+  description: A plain-text language with a simple structure
+  website_url: https://cucumber.io/docs/gherkin/reference/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2460/default_aff27c02548fadb1b7e6f85a2b0da1c5dca5cc08.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/coopcycle-web
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/coopcycle-web
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/tests/AppBundle/Resources/sql/restaurants.sql
+  detection_source: tests/AppBundle/Resources/sql/restaurants.sql
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2017-01-25 23:43:53.000000000 Z
+- name: Swift
+  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 23:43:22.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 23:43:22.000000000 Z
+- name: Ant Design
+  description: A set of high-quality React components
+  website_url: https://ant.design
+  version: 4.24.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6112/12101536.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-10-02 21:27:13.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-05-06 12:56:41.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 3.9.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-04-05 11:52:34.000000000 Z
+- name: Dropzone.js
+  description: An open source library that provides drag and drop file uploads with
+    image previews
+  website_url: http://www.dropzonejs.com/
+  version: 5.9.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/6890/dropzonejs.com
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.json
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-01-24 19:47:47.000000000 Z
+- name: Less
+  description: The dynamic stylesheet language
+  website_url: http://lesscss.org/
+  version: 4.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 23:43:22.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-02-23 13:06:37.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: js/shared/package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-03-20 21:53:20.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 23:43:22.000000000 Z
+- name: Sonic
+  description: A fast JSON serializing and deserializing library (By Bytedance)
+  website_url: https://github.com/bytedance/sonic
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/40261/default_b4535fa14b2c9c6ea9598fd65ceffec7a14ec8ed.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2020-11-22 11:00:40.000000000 Z
+- name: Symfony
+  description: A PHP full-stack web framework
+  website_url: http://symfony.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1197/logosf_positif_03_icon.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.json
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-11-18 12:15:22.000000000 Z
+- name: Twig
+  description: A flexible, fast, and secure template engine
+  website_url: https://twig.symfony.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1642/default_3debd3a9a6d757c011130c7a9626e7c3bd8be945.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.json
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 19:09:21.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-13 21:53:59.000000000 Z
+- name: react-beautiful-dnd
+  description: Beautiful and accessible drag and drop for lists with React (by Atlassian)
+  website_url: https://github.com/atlassian/react-beautiful-dnd
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9878/react-beautiful-dnd-logo.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: reselect
+  description: Selector library for Redux
+  website_url: https://github.com/reactjs/reselect
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/7757/13142323.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/js/shared/package.json
+  detection_source: js/shared/package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-03-20 20:37:20.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-13 21:53:59.000000000 Z
+- name: Doctrine 2
+  description: An object-relational mapper (ORM) for PHP 5.3.2+ that provides transparent
+    persistence for PHP objects
+  website_url: http://www.doctrine-project.org/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1232/_BKTHxZk.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.json
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-11-18 12:15:22.000000000 Z
+- name: Minio
+  description: AWS S3 open source alternative written in Go
+  website_url: https://minio.io/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/4485/gTawkyAA.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Miguel Peixe
+  last_updated_on: 2020-06-22 16:38:32.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-02-23 13:06:37.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2020-11-02 10:08:18.000000000 Z
+- name: Tile38
+  description: High-performance database for geospatial and realtime geofencing applications
+  website_url: http://tile38.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/7278/0KoIkxyJ_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2020-02-26 13:34:49.000000000 Z
+- name: migra
+  description: A schema diff tool for PostgreSQL
+  website_url: https://migra.djrobstep.com/
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.json
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-03-27 22:17:51.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.18.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: babel.config.js
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-04-03 17:38:40.000000000 Z
+- name: Behat
+  description: A BDD framework for testing your business expectations
+  website_url: http://behat.org
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1650/7f2139b4b5176b422459c609be965b1e_400x400.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-05-10 11:44:45.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.3.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 23:43:22.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2019-11-01 13:27:12.000000000 Z
+- name: CodeMirror
+  description: A versatile text editor implemented in JavaScript for the browser
+  website_url: http://codemirror.net/
+  version: 5.65.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-07-08 14:08:46.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 6.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-05-06 08:10:10.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 23:43:22.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-01-20 16:20:22.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: js/shared/package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-03-20 20:37:20.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  version: '1.11'
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2020-11-02 10:08:18.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 23:43:22.000000000 Z
+- name: PHPStan
+  description: PHP Static Analysis Tool - discover bugs in your code without running
+    it!
+  website_url: https://github.com/phpstan/phpstan
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/8333/phpst.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.json
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 19:09:21.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 9.5.25
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 19:09:21.000000000 Z
+- name: PhpSpec
+  description: A  toolset for behavior driven development
+  website_url: http://www.phpspec.net/en/latest/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3502/6b9dfb07681dee602dbdf75d9393f07c_400x400.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 19:09:21.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.89.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-06-22 11:53:22.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 23:43:22.000000000 Z
+- name: Cube
+  description: Bring context to your data apps
+  website_url: https://cube.dev
+  open_source: true
+  hosted_saas: false
+  category: Analytics
+  sub_category: Business Intelligence
+  image_url: https://img.stackshare.io/service/9782/default_f9dea6e8bee8d7f7cd199552b49c821fd3258471.jpg
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-02-23 13:06:37.000000000 Z
+- name: Stripe
+  description: Payments for developers
+  website_url: https://stripe.com
+  open_source: false
+  hosted_saas: true
+  category: Payments
+  sub_category: Payment Services
+  image_url: https://img.stackshare.io/service/97/eW6tXeq3.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-12-20 15:16:33.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-05-12 10:20:22.000000000 Z
+- name: Centrifugo
+  description: Centrifugo is a language-agnostic real-time messaging server (Websocket)
+  website_url: https://centrifugal.github.io/centrifugo/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10011/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-09-02 20:27:42.000000000 Z
+- name: Chrome Webstore
+  description: News and updates from Google
+  website_url: https://chrome.google.com/webstore
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5820/5Obhonwa_normal.jpg
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Santiago
+  last_updated_on: 2020-09-21 14:48:43.000000000 Z
+- name: Cleave.js
+  description: Format input text content when you are typing
+  website_url: https://nosir.github.io/cleave.js/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/21958/default_1224eb8d21537064d2f315c3e3f1e6a0518c3c59.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2020-06-12 19:44:21.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 23:43:22.000000000 Z
+- name: Formik
+  description: Build forms in React
+  website_url: https://jaredpalmer.com/formik/
+  version: 2.2.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Web Forms
+  image_url: https://img.stackshare.io/service/8846/preview.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-06-02 23:03:32.000000000 Z
+- name: Leaflet
+  description: JavaScript library for mobile-friendly interactive maps
+  website_url: http://leafletjs.com/
+  version: 1.9.4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Mapping APIs
+  image_url: https://img.stackshare.io/service/2392/leaflet_upic.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-01-27 17:21:16.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: js/shared/package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-03-20 20:37:20.000000000 Z
+- name: Lottie
+  description: Easily add high-quality animation to any native app (by Airbnb)
+  website_url: http://airbnb.design/lottie/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Mobile Prototyping & Interaction Design Tools
+  image_url: https://img.stackshare.io/service/6445/lottie.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-07-08 14:08:46.000000000 Z
+- name: McAfee Endpoint Protection
+  description: Swiftly detect, prevent, and correct advanced threats
+  website_url: https://www.mcafee.com/enterprise/en-us/products/endpoint-protection-products.html
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Security
+  image_url: https://img.stackshare.io/service/12055/endpont.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2020-12-02 09:09:13.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: js/shared/package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-03-20 20:37:20.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-05 13:03:41.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web
+  detection_source: Repo Metadata
+- name: Typesense
+  description: Open-Source Alternative to Algolia
+  website_url: https://typesense.org
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/11330/typesense_medium.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2022-05-12 17:58:10.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.25.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-01-27 15:43:32.000000000 Z
+- name: downshift
+  description: Primitive to build simple, flexible, WAI-ARIA compliant enhanced input
+    React components
+  website_url: https://github.com/paypal/downshift
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10155/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-24 12:22:26.000000000 Z
+- name: i18next
+  description: Internationalization-framework written in and for JavaScript
+  website_url: https://www.i18next.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Translation Service
+  image_url: https://img.stackshare.io/service/4747/default_82286a88bf01c80539ebd1d6dbea1b25df8af16d.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-13 21:53:59.000000000 Z
+- name: api-platform/core
+  description: Build a fully-featured hypermedia or GraphQL API in minutes!
+  package_url: https://packagist.org/api-platform/core
+  version: 2.7.10
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-28 15:26:19.000000000 Z
+- name: beberlei/DoctrineExtensions
+  description: A set of extensions to Doctrine 2 that add support for additional query
+    functions available in MySQL and Oracle
+  package_url: https://packagist.org/beberlei/DoctrineExtensions
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.json
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-11-18 12:15:22.000000000 Z
+- name: behat/behat
+  description: Scenario-oriented BDD framework for PHP
+  package_url: https://packagist.org/behat/behat
+  version: 3.11.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-05-10 11:44:45.000000000 Z
+- name: behatch/contexts
+  description: Behatch contexts
+  package_url: https://packagist.org/behatch/contexts
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.json
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-05-10 11:44:45.000000000 Z
+- name: box/spout
+  description: PHP Library to read and write spreadsheet files
+  package_url: https://packagist.org/box/spout
+  version: 3.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2019-06-10 14:14:44.000000000 Z
+- name: cocur/slugify
+  description: Converts a string into a slug
+  package_url: https://packagist.org/cocur/slugify
+  version: 4.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-03-17 13:46:25.000000000 Z
+- name: coduo/php-matcher
+  description: PHP Matcher enables you to match values with patterns
+  package_url: https://packagist.org/coduo/php-matcher
+  version: 6.0.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2022-05-12 17:58:10.000000000 Z
+- name: doctrine/cache
+  description: PHP Doctrine Cache library is a popular cache implementation that supports
+    many different drivers such as redis
+  package_url: https://packagist.org/doctrine/cache
+  version: 2.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-11-18 12:15:22.000000000 Z
+- name: doctrine/doctrine-bundle
+  description: Symfony DoctrineBundle
+  package_url: https://packagist.org/doctrine/doctrine-bundle
+  version: 2.7.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: doctrine/doctrine-migrations-bundle
+  description: Symfony DoctrineMigrationsBundle
+  package_url: https://packagist.org/doctrine/doctrine-migrations-bundle
+  version: 3.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: doctrine/orm
+  description: Object-Relational-Mapper for PHP
+  package_url: https://packagist.org/doctrine/orm
+  version: 2.13.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-11-18 12:15:22.000000000 Z
+- name: egulias/email-validator
+  description: A library for validating emails against several RFCs
+  package_url: https://packagist.org/egulias/email-validator
+  version: 3.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-10-02 20:18:03.000000000 Z
+- name: friends-of-behat/symfony-extension
+  description: Integrates Behat with Symfony
+  package_url: https://packagist.org/friends-of-behat/symfony-extension
+  version: 2.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-13 22:44:52.000000000 Z
+- name: friendsofsymfony/jsrouting-bundle
+  description: A pretty nice way to expose your Symfony routing to client applications
+  package_url: https://packagist.org/friendsofsymfony/jsrouting-bundle
+  version: 2.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-13 04:32:33.000000000 Z
+- name: friendsofsymfony/rest-bundle
+  description: This Bundle provides various tools to rapidly develop RESTful API's
+    with Symfony
+  package_url: https://packagist.org/friendsofsymfony/rest-bundle
+  version: 3.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: gedmo/doctrine-extensions
+  description: Doctrine behavioral extensions
+  package_url: https://packagist.org/gedmo/doctrine-extensions
+  version: 3.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-13 22:44:52.000000000 Z
+- name: gesdinet/jwt-refresh-token-bundle
+  description: Implements a refresh token system over Json Web Tokens in Symfony
+  package_url: https://packagist.org/gesdinet/jwt-refresh-token-bundle
+  version: 1.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: google/apiclient
+  description: Client library for Google APIs
+  package_url: https://packagist.org/google/apiclient
+  version: 2.12.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-05 22:35:44.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 7.8.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-02-17 17:33:35.000000000 Z
+- name: hashids/hashids
+  description: Generate short
+  package_url: https://packagist.org/hashids/hashids
+  version: 4.1.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-02-08 15:30:52.000000000 Z
+- name: hautelook/alice-bundle
+  description: Symfony bundle to manage fixtures with Alice and Faker
+  package_url: https://packagist.org/hautelook/alice-bundle
+  version: 2.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: hwi/oauth-bundle
+  description: Support for authenticating users using both OAuth1.0a and OAuth2 in
+    Symfony
+  package_url: https://packagist.org/hwi/oauth-bundle
+  version: 1.4.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: jaybizzle/crawler-detect
+  description: CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via
+    the user agent
+  package_url: https://packagist.org/jaybizzle/crawler-detect
+  version: 1.2.112
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-01-24 19:47:47.000000000 Z
+- name: jmikola/geojson
+  description: GeoJSON implementation for PHP
+  package_url: https://packagist.org/jmikola/geojson
+  version: 1.1.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2019-10-21 16:24:02.000000000 Z
+- name: knplabs/knp-paginator-bundle
+  description: Paginator bundle for Symfony to automate pagination and simplify sorting
+    and other features
+  package_url: https://packagist.org/knplabs/knp-paginator-bundle
+  version: 5.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: knplabs/knp-time-bundle
+  description: Making your dates and durations look sensible and descriptive
+  package_url: https://packagist.org/knplabs/knp-time-bundle
+  version: 1.20.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: laravolt/avatar
+  description: Turn name
+  package_url: https://packagist.org/laravolt/avatar
+  version: 4.1.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-01-22 18:34:41.000000000 Z
+- name: league/commonmark
+  description: Highly-extensible PHP Markdown parser which fully supports the CommonMark
+    spec and GitHub-Flavored Markdown
+  package_url: https://packagist.org/league/commonmark
+  version: 2.3.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-25 09:59:17.000000000 Z
+- name: league/csv
+  description: CSV data manipulation made easy in PHP
+  package_url: https://packagist.org/league/csv
+  version: 9.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-25 09:59:17.000000000 Z
+- name: league/flysystem-aws-s3-v3
+  description: AWS S3 filesystem adapter for Flysystem
+  package_url: https://packagist.org/league/flysystem-aws-s3-v3
+  version: 1.0.30
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-25 09:59:17.000000000 Z
+- name: league/geotools
+  description: Geo-related tools PHP 7.3+ library
+  package_url: https://packagist.org/league/geotools
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-25 09:59:17.000000000 Z
+- name: league/omnipay
+  description: Omnipay payment processing library
+  package_url: https://packagist.org/league/omnipay
+  version: 3.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-25 09:59:17.000000000 Z
+- name: lexik/jwt-authentication-bundle
+  description: This bundle provides JWT authentication for your Symfony REST API
+  package_url: https://packagist.org/lexik/jwt-authentication-bundle
+  version: 2.16.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: liip/imagine-bundle
+  description: This bundle provides an image manipulation abstraction toolkit for
+    Symfony-based projects
+  package_url: https://packagist.org/liip/imagine-bundle
+  version: 2.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: mailjet/mailjet-apiv3-php
+  description: PHP wrapper for the Mailjet API
+  package_url: https://packagist.org/mailjet/mailjet-apiv3-php
+  version: 1.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-13 12:55:06.000000000 Z
+- name: myclabs/php-enum
+  description: PHP Enum implementation
+  package_url: https://packagist.org/myclabs/php-enum
+  version: 1.8.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2022-05-12 17:58:10.000000000 Z
+- name: nelmio/cors-bundle
+  description: Adds CORS
+  package_url: https://packagist.org/nelmio/cors-bundle
+  version: 2.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-28 15:26:19.000000000 Z
+- name: nesbot/carbon
+  description: An API extension for DateTime that supports 281 different languages
+  package_url: https://packagist.org/nesbot/carbon
+  version: 2.72.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2019-06-08 10:28:09.000000000 Z
+- name: nyholm/psr7
+  description: A fast PHP7 implementation of PSR-7
+  package_url: https://packagist.org/nyholm/psr7
+  version: 1.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Nathan Lapel
+  last_updated_on: 2018-10-21 16:23:29.000000000 Z
+- name: oneup/flysystem-bundle
+  description: Integrates Flysystem filesystem abstraction library to your Symfony
+    project
+  package_url: https://packagist.org/oneup/flysystem-bundle
+  version: 3.7.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: oneup/uploader-bundle
+  description: This Symfony bundle provides a server implementation for handling single
+    and multiple file uploads using either FineUploader
+  package_url: https://packagist.org/oneup/uploader-bundle
+  version: 3.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: php-http/httplug-bundle
+  description: Symfony integration for HTTPlug
+  package_url: https://packagist.org/php-http/httplug-bundle
+  version: 1.32.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: php-http/message
+  description: HTTP Message related tools
+  package_url: https://packagist.org/php-http/message
+  version: 1.14.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-02-17 17:33:35.000000000 Z
+- name: phpdocumentor/reflection-docblock
+  description: With this component
+  package_url: https://packagist.org/phpdocumentor/reflection-docblock
+  version: 5.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-11-15 11:05:03.000000000 Z
+- name: phpoffice/phpspreadsheet
+  description: PHPSpreadsheet - Read
+  package_url: https://packagist.org/phpoffice/phpspreadsheet
+  version: 1.25.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2022-05-12 17:58:10.000000000 Z
+- name: phpspec/prophecy-phpunit
+  description: Integrating the Prophecy mocking library in PHPUnit test cases
+  package_url: https://packagist.org/phpspec/prophecy-phpunit
+  version: 2.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-13 12:55:06.000000000 Z
+- name: phpstan/phpstan
+  description: PHPStan - PHP Static Analysis Tool
+  package_url: https://packagist.org/phpstan/phpstan
+  version: 1.8.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2022-05-12 17:58:10.000000000 Z
+- name: phpstan/phpstan-doctrine
+  description: Doctrine extensions for PHPStan
+  package_url: https://packagist.org/phpstan/phpstan-doctrine
+  version: 1.3.19
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2022-05-12 17:58:10.000000000 Z
+- name: phpstan/phpstan-symfony
+  description: Symfony Framework extensions and rules for PHPStan
+  package_url: https://packagist.org/phpstan/phpstan-symfony
+  version: 1.2.14
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2022-05-12 17:58:10.000000000 Z
+- name: phpstan/phpstan-webmozart-assert
+  description: PHPStan webmozart/assert extension
+  package_url: https://packagist.org/phpstan/phpstan-webmozart-assert
+  version: 1.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2022-05-12 17:58:10.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 9.5.25
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2022-05-12 17:58:10.000000000 Z
+- name: ramsey/uuid
+  description: A PHP library for generating and working with universally unique identifiers
+  package_url: https://packagist.org/ramsey/uuid
+  version: 3.9.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2020-02-21 12:47:25.000000000 Z
+- name: ramsey/uuid-doctrine
+  description: Use ramsey/uuid as a Doctrine field type
+  package_url: https://packagist.org/ramsey/uuid-doctrine
+  version: 1.8.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-11-18 12:15:22.000000000 Z
+- name: sensio/framework-extra-bundle
+  description: This bundle provides a way to configure your controllers with annotations
+  package_url: https://packagist.org/sensio/framework-extra-bundle
+  version: 5.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: simple-bus/symfony-bridge
+  description: Bridge for using command buses and event buses in Symfony projects
+  package_url: https://packagist.org/simple-bus/symfony-bridge
+  version: 6.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: simshaun/recurr
+  description: PHP library for working with recurrence rules
+  package_url: https://packagist.org/simshaun/recurr
+  version: 5.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-02-15 14:56:12.000000000 Z
+- name: snc/redis-bundle
+  description: A Redis bundle for Symfony
+  package_url: https://packagist.org/snc/redis-bundle
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: sonata-project/seo-bundle
+  description: Symfony SonataSeoBundle
+  package_url: https://packagist.org/sonata-project/seo-bundle
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.json
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: stripe/stripe-php
+  description: Stripe PHP Library
+  package_url: https://packagist.org/stripe/stripe-php
+  version: 7.128.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-13 12:55:06.000000000 Z
+- name: sylius/resource-bundle
+  description: Resource component for Sylius
+  package_url: https://packagist.org/sylius/resource-bundle
+  version: 1.9.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: symfony/monolog-bundle
+  description: Symfony MonologBundle
+  package_url: https://packagist.org/symfony/monolog-bundle
+  version: 3.8.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: symfony/phpunit-bridge
+  description: Provides utilities for PHPUnit
+  package_url: https://packagist.org/symfony/phpunit-bridge
+  version: 5.4.14
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2022-05-12 17:58:10.000000000 Z
+- name: symfony/symfony
+  description: The Symfony PHP framework
+  package_url: https://packagist.org/symfony/symfony
+  version: 5.4.33
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-11-18 12:15:22.000000000 Z
+- name: symfony/webpack-encore-bundle
+  description: Integration with your Symfony app &amp; Webpack Encore!
+  package_url: https://packagist.org/symfony/webpack-encore-bundle
+  version: 1.16.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-28 15:26:19.000000000 Z
+- name: theofidry/alice-data-fixtures
+  description: Nelmio alice extension to persist the loaded fixtures
+  package_url: https://packagist.org/theofidry/alice-data-fixtures
+  version: 1.6.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: twig/twig
+  description: Twig
+  package_url: https://packagist.org/twig/twig
+  version: 2.16.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-13 22:44:52.000000000 Z
+- name: twilio/sdk
+  description: A PHP wrapper for Twilio's API
+  package_url: https://packagist.org/twilio/sdk
+  version: 6.43.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2020-10-25 18:07:22.000000000 Z
+- name: vich/uploader-bundle
+  description: Ease file uploads attached to entities
+  package_url: https://packagist.org/vich/uploader-bundle
+  version: 1.16.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/composer.lock
+  detection_source: composer.json
+  last_updated_by: Lucas Ferraro
+  last_updated_on: 2023-03-07 15:34:16.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.18.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: js/shared/package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-03-20 20:37:20.000000000 Z
+- name: "@babel/plugin-proposal-object-rest-spread"
+  description: Compile object rest and spread to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-object-rest-spread
+  version: 7.19.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16001/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: js/shared/package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-03-20 20:37:20.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: "@babel/register"
+  description: Babel require hook
+  package_url: https://www.npmjs.com/@babel/register
+  version: 7.18.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16014/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: antd
+  description: An enterprise-class UI design language and React components implementation
+  package_url: https://www.npmjs.com/antd
+  version: 4.24.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16201/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-12-13 08:34:07.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: babel-jest
+  description: Jest plugin to use babel for transformation
+  package_url: https://www.npmjs.com/babel-jest
+  version: 26.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15839/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: js/shared/package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-03-20 20:37:20.000000000 Z
+- name: babel-plugin-import
+  description: Component modular import plugin for babel
+  package_url: https://www.npmjs.com/babel-plugin-import
+  version: 1.13.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16208/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: bootstrap-sass
+  description: Bootstrap-sass is a Sass-powered version of Bootstrap 3
+  package_url: https://www.npmjs.com/bootstrap-sass
+  version: 3.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16915/default_e65289f03a07faa8d49ce16c483f18c4f8a98db9.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: chroma-js
+  description: JavaScript library for color conversions
+  package_url: https://www.npmjs.com/chroma-js
+  version: 2.4.2
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17775/default_65e03f67ad735337587d736d5fbc87b538eccdf7.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-02-03 09:35:16.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-05 13:03:41.000000000 Z
+- name: clipboard
+  description: Modern copy to clipboard. No Flash. Just 2kb
+  package_url: https://www.npmjs.com/clipboard
+  version: 2.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16838/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-05-06 12:56:41.000000000 Z
+- name: compare-versions
+  description: Compare semver version strings to find greater
+  package_url: https://www.npmjs.com/compare-versions
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18084/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-05 13:03:41.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: downshift
+  description: A set of primitives to build simple
+  package_url: https://www.npmjs.com/downshift
+  version: 7.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18017/default_ab659b5159df20d1c32f07b936d63628134f5b3d.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-24 12:22:26.000000000 Z
+- name: eslint-plugin-jest
+  description: Eslint rules for Jest
+  package_url: https://www.npmjs.com/eslint-plugin-jest
+  version: 24.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15996/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.31.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: font-awesome
+  description: The iconic font and CSS framework
+  package_url: https://www.npmjs.com/font-awesome
+  version: 4.7.0
+  license: OFL-1.1,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16160/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2018-06-18 23:01:34.000000000 Z
+- name: form-data
+  description: A library to create readable "multipart/form-data" streams
+  package_url: https://www.npmjs.com/form-data
+  version: 2.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16415/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-06-02 23:03:32.000000000 Z
+- name: fuse.js
+  description: Lightweight fuzzy-search
+  package_url: https://www.npmjs.com/fuse.js
+  version: 3.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17405/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2020-06-12 19:44:21.000000000 Z
+- name: html-loader
+  description: Html loader module for webpack
+  package_url: https://www.npmjs.com/html-loader
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16055/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-06-13 16:25:38.000000000 Z
+- name: js-cookie
+  description: A simple, lightweight JavaScript API for handling cookies
+  package_url: https://www.npmjs.com/js-cookie
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16441/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-04-22 12:50:41.000000000 Z
+- name: js-yaml
+  description: YAML 1.2 parser and serializer
+  package_url: https://www.npmjs.com/js-yaml
+  version: 3.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15997/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-04-21 12:56:15.000000000 Z
+- name: json-loader
+  description: Json loader module for webpack
+  package_url: https://www.npmjs.com/json-loader
+  version: 0.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15995/default_200de1a6fc4121e019ce4a5b0cf9ad37c7756e2d.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-06-13 16:25:38.000000000 Z
+- name: less-loader
+  description: A Less loader for webpack. Compiles Less to CSS
+  package_url: https://www.npmjs.com/less-loader
+  version: 10.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15989/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-06-13 16:25:38.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: js/shared/package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-03-20 20:37:20.000000000 Z
+- name: moment-timezone
+  description: Parse and display moments in any timezone
+  package_url: https://www.npmjs.com/moment-timezone
+  version: 0.5.39
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16298/default_8b65a873fd3277d73483d6846fa38192391abf23.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: object-hash
+  description: Generate hashes from javascript objects in node and the browser
+  package_url: https://www.npmjs.com/object-hash
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16940/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 6.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-06-13 16:25:38.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-05 13:03:41.000000000 Z
+- name: promise
+  description: Bare bones Promises/A+ implementation
+  package_url: https://www.npmjs.com/promise
+  version: 8.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16093/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: qs
+  description: A querystring parser that supports nesting and arrays
+  package_url: https://www.npmjs.com/qs
+  version: 6.10.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16125/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2016-10-28 23:43:22.000000000 Z
+- name: react-autosuggest
+  description: WAI-ARIA compliant React autosuggest component
+  package_url: https://www.npmjs.com/react-autosuggest
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18089/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: react-color
+  description: A Collection of Color Pickers from Sketch
+  package_url: https://www.npmjs.com/react-color
+  version: 2.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16955/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: react-dropzone
+  description: Simple HTML5 drag-drop zone with React.js
+  package_url: https://www.npmjs.com/react-dropzone
+  version: 11.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16979/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: react-i18next
+  description: Internationalization for react done right
+  package_url: https://www.npmjs.com/react-i18next
+  version: 11.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17777/default_65e03f67ad735337587d736d5fbc87b538eccdf7.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-24 12:22:26.000000000 Z
+- name: react-modal
+  description: Accessible modal dialog component for React.JS
+  package_url: https://www.npmjs.com/react-modal
+  version: 3.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16926/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: react-select
+  description: A Select control built with and for ReactJS
+  package_url: https://www.npmjs.com/react-select
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16452/default_d634bba6819a28b85a138b7ded782cadbfa6a482.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: react-timeago
+  description: A simple Time-Ago component for ReactJs
+  package_url: https://www.npmjs.com/react-timeago
+  version: 6.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: react-toastify
+  description: React notification made easy
+  package_url: https://www.npmjs.com/react-toastify
+  version: 7.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18461/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-20 13:04:49.000000000 Z
+- name: redux-actions
+  description: Flux Standard Action utlities for Redux
+  package_url: https://www.npmjs.com/redux-actions
+  version: 2.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16990/default_a753a22aef103e9dbba3f82f20c705e33d009143.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: js/shared/package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-03-20 21:53:20.000000000 Z
+- name: redux-mock-store
+  description: A mock store for testing your redux async action creators and middleware
+  package_url: https://www.npmjs.com/redux-mock-store
+  version: 1.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16721/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 12.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-11-15 10:08:24.000000000 Z
+- name: sortablejs
+  description: JavaScript library for reorderable drag-and-drop lists on modern browsers
+    and touch devices
+  package_url: https://www.npmjs.com/sortablejs
+  version: 1.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17481/default_188fa5cbc974fa18aed5a9b1f0d7f2bfaf8f1648.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-04-05 11:52:34.000000000 Z
+- name: store
+  description: A localStorage wrapper for all browsers without using cookies or flash
+  package_url: https://www.npmjs.com/store
+  version: 2.0.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18478/default_6441f53d6a389f92c1e16b01717cd1d37a1809fd.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2021-02-27 15:41:03.000000000 Z
+- name: swiper
+  description: Most modern mobile touch slider and framework with hardware accelerated
+    transitions
+  package_url: https://www.npmjs.com/swiper
+  version: 8.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17656/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-10-13 21:53:59.000000000 Z
+- name: to-string-loader
+  description: To-string loader for webpack
+  package_url: https://www.npmjs.com/to-string-loader
+  version: 1.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16800/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-06-13 16:25:38.000000000 Z
+- name: url-loader
+  description: A loader for webpack which transforms files into base64 URIs
+  package_url: https://www.npmjs.com/url-loader
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-06-13 16:25:38.000000000 Z
+- name: whatwg-fetch
+  description: A window.fetch polyfill
+  package_url: https://www.npmjs.com/whatwg-fetch
+  version: 2.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16094/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/2lambda123/coopcycle-web/blob/3552-improving-the-route-concept/package-lock.json
+  detection_source: package.json
+  last_updated_by: Alexandre Segura
+  last_updated_on: 2022-01-27 18:16:35.000000000 Z
