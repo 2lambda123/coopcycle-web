@@ -51,7 +51,7 @@
         "myclabs/php-enum": "^1.8",
         "beberlei/doctrineextensions": "^1.0",
         "sentry/sentry-symfony": "^4.0",
-        "ramsey/uuid-doctrine": "^1.6",
+        "ramsey/uuid-doctrine": "^2.0",
         "ramsey/uuid": "^3.9",
         "nesbot/carbon": "^2.0",
         "sylius/taxation-bundle": "^1.7.5",
