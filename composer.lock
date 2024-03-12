@@ -6456,47 +6456,48 @@
         },
         {
             "name": "jms/serializer",
-            "version": "3.24.0",
+            "version": "3.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "bd18f0a6ee4d75515b33091afa3333e100e0be43"
+                "reference": "bf1105358123d7c02ee6cad08ea33ab535a09d5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/bd18f0a6ee4d75515b33091afa3333e100e0be43",
-                "reference": "bd18f0a6ee4d75515b33091afa3333e100e0be43",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/bf1105358123d7c02ee6cad08ea33ab535a09d5e",
+                "reference": "bf1105358123d7c02ee6cad08ea33ab535a09d5e",
                 "shasum": ""
             },
             "require": {
-                "doctrine/annotations": "^1.13 || ^2.0",
-                "doctrine/instantiator": "^1.0.3 || ^2.0",
-                "doctrine/lexer": "^1.1 || ^2",
+                "doctrine/instantiator": "^1.3.1 || ^2.0",
+                "doctrine/lexer": "^2.0 || ^3.0",
                 "jms/metadata": "^2.6",
-                "php": "^7.2||^8.0",
-                "phpstan/phpdoc-parser": "^0.4 || ^0.5 || ^1.0"
+                "php": "^7.4 || ^8.0",
+                "phpstan/phpdoc-parser": "^1.20"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^8.1",
-                "doctrine/orm": "~2.1",
-                "doctrine/persistence": "^1.3.3|^2.0|^3.0",
-                "doctrine/phpcr-odm": "^1.3|^2.0",
+                "doctrine/annotations": "^1.14 || ^2.0",
+                "doctrine/coding-standard": "^12.0",
+                "doctrine/orm": "^2.14 || ^3.0",
+                "doctrine/persistence": "^2.5.2 || ^3.0",
+                "doctrine/phpcr-odm": "^1.5.2 || ^2.0",
                 "ext-pdo_sqlite": "*",
-                "jackalope/jackalope-doctrine-dbal": "^1.1.5",
-                "ocramius/proxy-manager": "^1.0|^2.0",
+                "jackalope/jackalope-doctrine-dbal": "^1.3",
+                "ocramius/proxy-manager": "^1.0 || ^2.0",
                 "phpbench/phpbench": "^1.0",
                 "phpstan/phpstan": "^1.0.2",
-                "phpunit/phpunit": "^8.5.21||^9.0||^10.0",
-                "psr/container": "^1.0|^2.0",
-                "symfony/dependency-injection": "^3.0|^4.0|^5.0|^6.0",
-                "symfony/expression-language": "^3.2|^4.0|^5.0|^6.0",
-                "symfony/filesystem": "^3.0|^4.0|^5.0|^6.0",
-                "symfony/form": "^3.0|^4.0|^5.0|^6.0",
-                "symfony/translation": "^3.0|^4.0|^5.0|^6.0",
-                "symfony/uid": "^5.1|^6.0",
-                "symfony/validator": "^3.1.9|^4.0|^5.0|^6.0",
-                "symfony/yaml": "^3.3|^4.0|^5.0|^6.0",
-                "twig/twig": "~1.34|~2.4|^3.0"
+                "phpunit/phpunit": "^9.0 || ^10.0",
+                "psr/container": "^1.0 || ^2.0",
+                "rector/rector": "^0.19.0",
+                "symfony/dependency-injection": "^5.4 || ^6.0 || ^7.0",
+                "symfony/expression-language": "^5.4 || ^6.0 || ^7.0",
+                "symfony/filesystem": "^5.4 || ^6.0 || ^7.0",
+                "symfony/form": "^5.4 || ^6.0 || ^7.0",
+                "symfony/translation": "^5.4 || ^6.0 || ^7.0",
+                "symfony/uid": "^5.4 || ^6.0 || ^7.0",
+                "symfony/validator": "^5.4 || ^6.0 || ^7.0",
+                "symfony/yaml": "^5.4 || ^6.0 || ^7.0",
+                "twig/twig": "^1.34 || ^2.4 || ^3.0"
             },
             "suggest": {
                 "doctrine/collections": "Required if you like to use doctrine collection types as ArrayCollection.",
@@ -6540,7 +6541,7 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/serializer/issues",
-                "source": "https://github.com/schmittjoh/serializer/tree/3.24.0"
+                "source": "https://github.com/schmittjoh/serializer/tree/3.30.0"
             },
             "funding": [
                 {
@@ -6548,7 +6549,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-06-04T20:28:00+00:00"
+            "time": "2024-02-24T14:12:14+00:00"
         },
         {
             "name": "jms/serializer-bundle",
@@ -16593,23 +16594,26 @@
         },
         {
             "name": "sylius/promotion",
-            "version": "v1.11.9",
+            "version": "v1.12.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/Promotion.git",
-                "reference": "bfa9eee7de91e6782d8fb5c66175fcf67a770bf7"
+                "reference": "e30390a61fd340fea791b7c1e0d5807b9417d953"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/Promotion/zipball/bfa9eee7de91e6782d8fb5c66175fcf67a770bf7",
-                "reference": "bfa9eee7de91e6782d8fb5c66175fcf67a770bf7",
+                "url": "https://api.github.com/repos/Sylius/Promotion/zipball/e30390a61fd340fea791b7c1e0d5807b9417d953",
+                "reference": "e30390a61fd340fea791b7c1e0d5807b9417d953",
                 "shasum": ""
             },
             "require": {
-                "doctrine/orm": "^2.5",
+                "doctrine/orm": "^2.13",
                 "php": "^8.0",
                 "sylius/registry": "^1.5",
-                "sylius/resource": "^1.7"
+                "sylius/resource": "^1.9"
+            },
+            "conflict": {
+                "doctrine/orm": "2.15.2"
             },
             "require-dev": {
                 "phpspec/phpspec": "^7.2"
@@ -16617,7 +16621,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -16652,52 +16656,54 @@
                 "sylius"
             ],
             "support": {
-                "source": "https://github.com/Sylius/Promotion/tree/v1.11.9"
+                "source": "https://github.com/Sylius/Promotion/tree/v1.12.13"
             },
-            "time": "2022-07-25T02:49:37+00:00"
+            "time": "2023-12-04T10:10:34+00:00"
         },
         {
             "name": "sylius/promotion-bundle",
-            "version": "v1.11.9",
+            "version": "v1.12.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Sylius/SyliusPromotionBundle.git",
-                "reference": "997987d5ab2e64027422ae31f71ba492b7237340"
+                "reference": "8c319fc0c968599b0ebd297a26399a50dff94413"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Sylius/SyliusPromotionBundle/zipball/997987d5ab2e64027422ae31f71ba492b7237340",
-                "reference": "997987d5ab2e64027422ae31f71ba492b7237340",
+                "url": "https://api.github.com/repos/Sylius/SyliusPromotionBundle/zipball/8c319fc0c968599b0ebd297a26399a50dff94413",
+                "reference": "8c319fc0c968599b0ebd297a26399a50dff94413",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.0",
                 "stof/doctrine-extensions-bundle": "^1.4",
-                "sylius/calendar": "^0.3",
-                "sylius/money-bundle": "^1.6",
-                "sylius/promotion": "^1.6",
+                "sylius/calendar": "^0.3 || ^0.4",
+                "sylius/money-bundle": "^1.12",
+                "sylius/promotion": "^1.12",
                 "sylius/registry": "^1.5",
-                "sylius/resource-bundle": "^1.7",
-                "symfony/framework-bundle": "^4.4 || ^5.4"
+                "sylius/resource-bundle": "^1.9",
+                "symfony/framework-bundle": "^5.4 || ^6.0"
             },
             "conflict": {
+                "doctrine/orm": "2.15.2",
+                "stof/doctrine-extensions-bundle": "1.8.0",
                 "twig/twig": "^3.0"
             },
             "require-dev": {
-                "doctrine/orm": "^2.7",
-                "matthiasnoback/symfony-dependency-injection-test": "^4.1",
+                "doctrine/orm": "^2.13",
+                "matthiasnoback/symfony-dependency-injection-test": "^4.2",
                 "phpspec/phpspec": "^7.2",
                 "phpunit/phpunit": "^8.5",
                 "polishsymfonycommunity/symfony-mocker-container": "^1.0",
-                "symfony/browser-kit": "^4.4 || ^5.4",
-                "symfony/dependency-injection": "^4.4 || ^5.4",
-                "symfony/form": "^4.4 || ^5.4",
-                "symfony/validator": "^4.4 || ^5.4"
+                "symfony/browser-kit": "^5.4 || ^6.0",
+                "symfony/dependency-injection": "^5.4 || ^6.0",
+                "symfony/form": "^5.4 || ^6.0",
+                "symfony/validator": "^5.4 || ^6.0"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -16734,9 +16740,9 @@
                 "sylius"
             ],
             "support": {
-                "source": "https://github.com/Sylius/SyliusPromotionBundle/tree/v1.11.9"
+                "source": "https://github.com/Sylius/SyliusPromotionBundle/tree/v1.12.13"
             },
-            "time": "2022-09-12T03:01:32+00:00"
+            "time": "2023-12-04T10:10:34+00:00"
         },
         {
             "name": "sylius/registry",
