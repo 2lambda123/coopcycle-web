@@ -19508,29 +19508,29 @@
         },
         {
             "name": "typesense/typesense-php",
-            "version": "v4.8.1",
+            "version": "v4.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/typesense/typesense-php.git",
-                "reference": "8de87f0208ff7871aebd6349ac0e2f560947d96c"
+                "reference": "f91fd292ee587609972e9587d4392df0e423fa6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/typesense/typesense-php/zipball/8de87f0208ff7871aebd6349ac0e2f560947d96c",
-                "reference": "8de87f0208ff7871aebd6349ac0e2f560947d96c",
+                "url": "https://api.github.com/repos/typesense/typesense-php/zipball/f91fd292ee587609972e9587d4392df0e423fa6b",
+                "reference": "f91fd292ee587609972e9587d4392df0e423fa6b",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "monolog/monolog": "^1.0|^2.1",
+                "monolog/monolog": "^2.1 || ^3.0 || ^3.3",
                 "nyholm/psr7": "^1.3",
                 "php": ">=7.4",
-                "php-http/client-common": "^1.0|^2.3",
+                "php-http/client-common": "^1.0 || ^2.3",
                 "php-http/discovery": "^1.0",
-                "php-http/httplug": "^1.0|^2.2",
-                "php-http/message-factory": "^1.0",
+                "php-http/httplug": "^1.0 || ^2.2",
                 "psr/http-client-implementation": "^1.0",
-                "psr/http-message": "^1.0"
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0 || ^2.0"
             },
             "require-dev": {
                 "squizlabs/php_codesniffer": "3.*",
@@ -19573,7 +19573,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-10-13T21:19:28+00:00"
+            "time": "2023-12-05T04:46:30+00:00"
         },
         {
             "name": "vich/uploader-bundle",
