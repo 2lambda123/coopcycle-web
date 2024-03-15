@@ -12127,16 +12127,16 @@
         },
         {
             "name": "ppshobi/psonic",
-            "version": "v2.0.1",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ppshobi/psonic.git",
-                "reference": "2cefe45be675613918d74c8ecb2d82647e0fd53f"
+                "reference": "2087d0eb8bf8c3b53e19fa127fba3b6bf1c61951"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ppshobi/psonic/zipball/2cefe45be675613918d74c8ecb2d82647e0fd53f",
-                "reference": "2cefe45be675613918d74c8ecb2d82647e0fd53f",
+                "url": "https://api.github.com/repos/ppshobi/psonic/zipball/2087d0eb8bf8c3b53e19fa127fba3b6bf1c61951",
+                "reference": "2087d0eb8bf8c3b53e19fa127fba3b6bf1c61951",
                 "shasum": ""
             },
             "require": {
@@ -12170,9 +12170,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ppshobi/psonic/issues",
-                "source": "https://github.com/ppshobi/psonic/tree/v2.0.1"
+                "source": "https://github.com/ppshobi/psonic/tree/v2.1.0"
             },
-            "time": "2020-12-30T17:32:39+00:00"
+            "time": "2022-11-01T11:37:31+00:00"
         },
         {
             "name": "psr/cache",
