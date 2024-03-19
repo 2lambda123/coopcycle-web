@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "788ba3f42d2e433102f50f6b3dd5c7d9",
+    "content-hash": "42eed666a9c00b4a4d4aa497336940a7",
     "packages": [
         {
             "name": "acseo/typesense-bundle",
@@ -4586,16 +4586,16 @@
         },
         {
             "name": "geocoder-php/photon-provider",
-            "version": "0.5.0",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/geocoder-php/photon-provider.git",
-                "reference": "fa0c5c141cf9c4ad7a1222596f667b8fdfcf3782"
+                "reference": "5f106fc034537738f54fdb34ccbc97a99199c832"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/geocoder-php/photon-provider/zipball/fa0c5c141cf9c4ad7a1222596f667b8fdfcf3782",
-                "reference": "fa0c5c141cf9c4ad7a1222596f667b8fdfcf3782",
+                "url": "https://api.github.com/repos/geocoder-php/photon-provider/zipball/5f106fc034537738f54fdb34ccbc97a99199c832",
+                "reference": "5f106fc034537738f54fdb34ccbc97a99199c832",
                 "shasum": ""
             },
             "require": {
@@ -4633,9 +4633,9 @@
             "description": "Geocoder Photon adapter",
             "homepage": "http://geocoder-php.org/Geocoder/",
             "support": {
-                "source": "https://github.com/geocoder-php/photon-provider/tree/0.5.0"
+                "source": "https://github.com/geocoder-php/photon-provider/tree/0.6.0"
             },
-            "time": "2022-07-30T12:09:30+00:00"
+            "time": "2023-07-09T14:05:05+00:00"
         },
         {
             "name": "gesdinet/jwt-refresh-token-bundle",
