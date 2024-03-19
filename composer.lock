@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "788ba3f42d2e433102f50f6b3dd5c7d9",
+    "content-hash": "8c955de4838942486bb84994b396174b",
     "packages": [
         {
             "name": "acseo/typesense-bundle",
@@ -19717,16 +19717,16 @@
         },
         {
             "name": "twilio/sdk",
-            "version": "6.43.0",
+            "version": "7.16.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:twilio/twilio-php.git",
-                "reference": "687245ed07dc807eec94389f715323cf13c1e316"
+                "url": "https://github.com/twilio/twilio-php.git",
+                "reference": "f97c450e8fb9eb1906a7862a5b58d6fe90b245a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/687245ed07dc807eec94389f715323cf13c1e316",
-                "reference": "687245ed07dc807eec94389f715323cf13c1e316",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/f97c450e8fb9eb1906a7862a5b58d6fe90b245a5",
+                "reference": "f97c450e8fb9eb1906a7862a5b58d6fe90b245a5",
                 "shasum": ""
             },
             "require": {
@@ -19734,7 +19734,7 @@
             },
             "require-dev": {
                 "guzzlehttp/guzzle": "^6.3 || ^7.0",
-                "phpunit/phpunit": ">=7.0"
+                "phpunit/phpunit": ">=7.0 < 10"
             },
             "suggest": {
                 "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
@@ -19762,7 +19762,11 @@
                 "sms",
                 "twilio"
             ],
-            "time": "2022-10-19T19:27:21+00:00"
+            "support": {
+                "issues": "https://github.com/twilio/twilio-php/issues",
+                "source": "https://github.com/twilio/twilio-php/tree/7.16.1"
+            },
+            "time": "2024-03-12T09:18:13+00:00"
         },
         {
             "name": "typesense/typesense-php",

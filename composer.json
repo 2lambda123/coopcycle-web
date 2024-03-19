@@ -103,7 +103,7 @@
         "league/omnipay": "^3.2.1",
         "mercadopago/dx-php": "^2.4.1",
         "egulias/email-validator": "^3.0",
-        "twilio/sdk": "^6.10",
+        "twilio/sdk": "^7.16",
         "friendsofsymfony/rest-bundle": "^3.0",
         "geocoder-php/open-cage-provider": "^4.4",
         "spatie/guzzle-rate-limiter-middleware": "^2.0",
