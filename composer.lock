@@ -3793,16 +3793,16 @@
         },
         {
             "name": "friendsofphp/proxy-manager-lts",
-            "version": "v1.0.16",
+            "version": "v1.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfPHP/proxy-manager-lts.git",
-                "reference": "ecadbdc9052e4ad08c60c8a02268712e50427f7c"
+                "reference": "0235d4d0a79494553b0c77129963aab449dec82f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/proxy-manager-lts/zipball/ecadbdc9052e4ad08c60c8a02268712e50427f7c",
-                "reference": "ecadbdc9052e4ad08c60c8a02268712e50427f7c",
+                "url": "https://api.github.com/repos/FriendsOfPHP/proxy-manager-lts/zipball/0235d4d0a79494553b0c77129963aab449dec82f",
+                "reference": "0235d4d0a79494553b0c77129963aab449dec82f",
                 "shasum": ""
             },
             "require": {
@@ -3859,7 +3859,7 @@
             ],
             "support": {
                 "issues": "https://github.com/FriendsOfPHP/proxy-manager-lts/issues",
-                "source": "https://github.com/FriendsOfPHP/proxy-manager-lts/tree/v1.0.16"
+                "source": "https://github.com/FriendsOfPHP/proxy-manager-lts/tree/v1.0.17"
             },
             "funding": [
                 {
@@ -3871,7 +3871,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-24T07:17:17+00:00"
+            "time": "2024-03-19T08:56:23+00:00"
         },
         {
             "name": "friendsofsymfony/jsrouting-bundle",
@@ -10439,21 +10439,21 @@
         },
         {
             "name": "nucleos/profile-bundle",
-            "version": "1.7.x-dev",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nucleos/NucleosProfileBundle.git",
-                "reference": "b8a711ae0a3a496caced47400a801b84ae72209e"
+                "reference": "629500c46876fed53994f2a4267ed1fa0a15a767"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nucleos/NucleosProfileBundle/zipball/b8a711ae0a3a496caced47400a801b84ae72209e",
-                "reference": "b8a711ae0a3a496caced47400a801b84ae72209e",
+                "url": "https://api.github.com/repos/nucleos/NucleosProfileBundle/zipball/629500c46876fed53994f2a4267ed1fa0a15a767",
+                "reference": "629500c46876fed53994f2a4267ed1fa0a15a767",
                 "shasum": ""
             },
             "require": {
                 "nucleos/user-bundle": "^1.7",
-                "php": "^7.3 || ^8.0",
+                "php": "^8.0",
                 "symfony/config": "^4.4 || ^5.0",
                 "symfony/dependency-injection": "^4.4 || ^5.0",
                 "symfony/event-dispatcher": "^4.4 || ^5.0",
@@ -10482,7 +10482,6 @@
             },
             "require-dev": {
                 "alcaeus/mongo-php-adapter": "^1.1",
-                "bamarni/composer-bin-plugin": "^1.3",
                 "doctrine/doctrine-bundle": "^1.12 || ^2.0",
                 "doctrine/orm": "^2.7",
                 "ergebnis/composer-normalize": "^2.0.1",
@@ -10516,7 +10515,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nucleos/NucleosProfileBundle/issues",
-                "source": "https://github.com/nucleos/NucleosProfileBundle/tree/1.7.x"
+                "source": "https://github.com/nucleos/NucleosProfileBundle/tree/1.8.0"
             },
             "funding": [
                 {
@@ -10536,20 +10535,20 @@
                     "type": "other"
                 }
             ],
-            "time": "2021-09-27T12:35:59+00:00"
+            "time": "2021-12-29T17:36:31+00:00"
         },
         {
             "name": "nucleos/user-bundle",
-            "version": "1.13.1",
+            "version": "1.12.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nucleos/NucleosUserBundle.git",
-                "reference": "fb778e97842618939bcac9d538feaa73d7dd9584"
+                "reference": "46a36485b3e2efea0d2b34e77a2297cb7c8f09f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nucleos/NucleosUserBundle/zipball/fb778e97842618939bcac9d538feaa73d7dd9584",
-                "reference": "fb778e97842618939bcac9d538feaa73d7dd9584",
+                "url": "https://api.github.com/repos/nucleos/NucleosUserBundle/zipball/46a36485b3e2efea0d2b34e77a2297cb7c8f09f1",
+                "reference": "46a36485b3e2efea0d2b34e77a2297cb7c8f09f1",
                 "shasum": ""
             },
             "require": {
@@ -10560,7 +10559,7 @@
                 "ext-json": "*",
                 "ext-mbstring": "*",
                 "paragonie/random_compat": "^1 || ^2 || ^9",
-                "php": "^8.0",
+                "php": "^7.3 || ^8.0",
                 "symfony/config": "^4.4 || ^5.0",
                 "symfony/console": "^4.4 || ^5.0",
                 "symfony/dependency-injection": "^4.4 || ^5.0",
@@ -10595,6 +10594,7 @@
                 "symfony/doctrine-bridge": "<4.4"
             },
             "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.3",
                 "doctrine/doctrine-bundle": "^1.12 || ^2.0",
                 "doctrine/mongodb-odm": "^2.0",
                 "doctrine/mongodb-odm-bundle": "^4.1",
@@ -10629,7 +10629,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nucleos/NucleosUserBundle/issues",
-                "source": "https://github.com/nucleos/NucleosUserBundle/tree/1.13.1"
+                "source": "https://github.com/nucleos/NucleosUserBundle/tree/1.12.x"
             },
             "funding": [
                 {
@@ -10649,7 +10649,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2021-12-27T15:35:36+00:00"
+            "time": "2021-10-09T17:29:13+00:00"
         },
         {
             "name": "nyholm/psr7",
@@ -23272,7 +23272,7 @@
     "stability-flags": {
         "league/geotools": 0,
         "sonata-project/seo-bundle": 20,
-        "nucleos/profile-bundle": 20,
+        "nucleos/user-bundle": 20,
         "shahonseven/php-color-hash": 20,
         "acseo/typesense-bundle": 20,
         "behatch/contexts": 20
